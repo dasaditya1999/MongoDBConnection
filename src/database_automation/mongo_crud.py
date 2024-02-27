@@ -23,7 +23,7 @@ class MongoDBOperation:
         return collection
     
     def insertOneDataPoint(self, uri, databaseName, collectionName, document):
-        ient = MongoClient(uri)
+        client = MongoClient(uri)
 
         database = client[databaseName]
 
