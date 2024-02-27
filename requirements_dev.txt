@@ -5,7 +5,6 @@ pandas
 numpy
 ensure
 
-
 # dev requirements -
 
 pytest==7.1.3
